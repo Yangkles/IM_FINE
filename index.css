@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 940px;
+  min-height: 3000px;
+}
+
+.userName {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.barChart {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  height: 200px;
+  width: auto;
+  border-left: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.bar {
+  background-color: #4caf50;
+  width: 50px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  transition: height 0.3s ease;
+  &:hover {
+    background-color: #373131;
+  }
+}
